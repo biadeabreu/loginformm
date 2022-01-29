@@ -1,0 +1,128 @@
+
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+    color: var(--text-base)
+
+}
+
+h2{
+    color: var(--text-title);
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+button{
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.campin{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: var(--background);
+}
+
+.campin img{
+    padding-left: 1em;
+    padding-top: 1em;
+    
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28em;
+    height: 29*em;
+    background-color: var(--form-background);
+    color: white;
+    padding: 2em 5em 2em 5em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.login img{
+    float: left;
+}
+
+#email{
+    background:url("images/mail.svg") no-repeat scroll ;
+    background-position:left;
+    border-radius: 5px;
+    border-style: solid;
+    
+    
+}
+
+
+
+#password{
+    background:url("images/lock.svg") no-repeat scroll;
+    background-position: left;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+}
+
+
+
+#remember{
+    border-style: solid;
+    border-radius: 5px;
+    width: 20px;
+}
+
+input:focus{
+    border: 2px var(--primary-color);
+}
+
+#login{
+    background-color: var(--primary-color);
+}
+.image{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.image img{
+    width: 100%;
+    
+
+}
+
+a{
+    color: var(--primary-color);
+}
+
+
+
+#forget{
+    float: right;
+    
+}
+
+#register{
+    text-align: center;
+}
